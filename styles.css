@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(135deg, #f6d365 0%, #fd6e6a 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 6px #fd6e6a60;
+}
+
+#gameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#pongCanvas {
+  background: #222;
+  border: 5px solid #fd6e6a;
+  box-shadow: 0 4px 30px #fd6e6a44;
+  border-radius: 16px;
+}
